@@ -1,0 +1,20 @@
+(als je het niet hebt)
+download Miniconda op https://www.anaconda.com/download
+
+run een anaconda prompt (niet powershell) voor de volgende code:
+
+conda create -n rl-maze python=3.9
+conda activate rl-maze
+conda install numpy=1.22
+
+# het meeste van dit staat ook in de notebook maar voor de zekerheid
+pip install gymnasium pandas seaborn matplotlib ipykernel tqdm scikit-image jupyter pillow 
+
+# navigeer nu naar je APML-Assignment1 folder
+
+code .
+
+# (ik weet niet of dit moet maar)
+# zet voor de zekerheid je vscode kernel naar 'rl-maze (Python 3.9.25)'
+# start een nieuwe terminal run: python --version
+# hij zou 3.9.? moeten zeggen en dan is het goed
