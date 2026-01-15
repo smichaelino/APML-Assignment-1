@@ -1,14 +1,14 @@
 from typing import List, Tuple
-
-from mazelab import VonNeumannMotion
+from mazelab.mazelab.motion import VonNeumannMotion
 import numpy as np
-from mazelab import BaseMaze
-from mazelab import Object
-from mazelab import DeepMindColor as color
+from mazelab.mazelab.maze import BaseMaze
+from mazelab.mazelab.object import Object
+from mazelab.mazelab.color_style import DeepMindColor as color
 import gymnasium as gym
 from gym.spaces import Box
 from gym.spaces import Discrete
-from mazelab.generators import random_maze, morris_water_maze
+from mazelab.mazelab.generators.random_maze import random_maze
+from mazelab.mazelab.generators.morris_water_maze import morris_water_maze
 from PIL import Image as PImage
 from gym.utils import seeding
 import random
