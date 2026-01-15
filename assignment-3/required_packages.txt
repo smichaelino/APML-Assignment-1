@@ -1,9 +1,1 @@
-numpy<1.23 
-python>=3.7<=3.9
-pandas 
-matplotlib 
-scikit-image 
-tqdm 
-jupyter 
-pillow 
-seaborn 
+numpy1.22 python3.9 pandas matplotlib scikit-image tqdm jupyter pillow seaborn 
